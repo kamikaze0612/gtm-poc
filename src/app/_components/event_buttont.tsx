@@ -8,7 +8,8 @@ export const EventButton: React.FC = () => {
     <Button
       onClick={() => sendGTMEvent({ event: "buttonClicked", value: "xyz" })}
       size="lg"
-      className="text-xl font-semibold"
+      id="event-button"
+      className="text-xl font-semibold event-button"
     >
       Click me
     </Button>
